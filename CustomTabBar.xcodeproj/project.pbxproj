@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A31671FD2802C53B00C5A9A5 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31671FC2802C53B00C5A9A5 /* TabBarVC.swift */; };
 		A3D996E927FCC0220059D21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D996E827FCC0220059D21F /* AppDelegate.swift */; };
 		A3D996EB27FCC0220059D21F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D996EA27FCC0220059D21F /* SceneDelegate.swift */; };
 		A3D996ED27FCC0220059D21F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D996EC27FCC0220059D21F /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		A3D996F327FCC0220059D21F /* CustomTabBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3D996F127FCC0220059D21F /* CustomTabBar.xcdatamodeld */; };
 		A3D996F527FCC0230059D21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D996F427FCC0230059D21F /* Assets.xcassets */; };
 		A3D996F827FCC0230059D21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D996F627FCC0230059D21F /* LaunchScreen.storyboard */; };
+		A3D9970027FCC1490059D21F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D996FF27FCC1490059D21F /* CustomTabBarController.swift */; };
+		A3D9970227FCC3430059D21F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D9970127FCC3430059D21F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A31671FC2802C53B00C5A9A5 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		A3D996E527FCC0220059D21F /* CustomTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D996E827FCC0220059D21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D996EA27FCC0220059D21F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		A3D996F427FCC0230059D21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3D996F727FCC0230059D21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3D996F927FCC0230059D21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D996FF27FCC1490059D21F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		A3D9970127FCC3430059D21F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				A3D996E827FCC0220059D21F /* AppDelegate.swift */,
 				A3D996EA27FCC0220059D21F /* SceneDelegate.swift */,
+				A3D9970127FCC3430059D21F /* SecondViewController.swift */,
 				A3D996EC27FCC0220059D21F /* ViewController.swift */,
+				A3D996FF27FCC1490059D21F /* CustomTabBarController.swift */,
 				A3D996EE27FCC0220059D21F /* Main.storyboard */,
 				A3D996F427FCC0230059D21F /* Assets.xcassets */,
 				A3D996F627FCC0230059D21F /* LaunchScreen.storyboard */,
 				A3D996F927FCC0230059D21F /* Info.plist */,
 				A3D996F127FCC0220059D21F /* CustomTabBar.xcdatamodeld */,
+				A31671FC2802C53B00C5A9A5 /* TabBarVC.swift */,
 			);
 			path = CustomTabBar;
 			sourceTree = "<group>";
@@ -141,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31671FD2802C53B00C5A9A5 /* TabBarVC.swift in Sources */,
+				A3D9970227FCC3430059D21F /* SecondViewController.swift in Sources */,
 				A3D996F327FCC0220059D21F /* CustomTabBar.xcdatamodeld in Sources */,
 				A3D996ED27FCC0220059D21F /* ViewController.swift in Sources */,
+				A3D9970027FCC1490059D21F /* CustomTabBarController.swift in Sources */,
 				A3D996E927FCC0220059D21F /* AppDelegate.swift in Sources */,
 				A3D996EB27FCC0220059D21F /* SceneDelegate.swift in Sources */,
 			);

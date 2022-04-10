@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .green
+        
+        self.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
+        self.tabBarController?.tabBar.backgroundColor = .blue
+        self.tabBarController?.selectedIndex = 2
     }
-
-
+    
 }
 
